@@ -1,0 +1,45 @@
+﻿.layui-layer-extend-load {
+            background: url(/js/plugins/layer/skin/default/loading-0.gif) center center no-repeat #fff;
+        }
+
+.layui-m-extend-layercont {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+.layui-m-extend-layercont .layui-m-layercont{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .layui-layer-extend-iframe {
+            width: 100%;
+            height: 100%;
+        }
+
+        .layui-layer-extend-title {
+            text-align: left;
+            padding: 0;
+            padding-left: .8rem;
+            margin: 0;
+            width:100%; height:2.6rem; line-height:2.6rem;
+    background: -webkit-linear-gradient(left,#66C8F0,#029BEE); /* Safari 5.1 - 6 */
+    background: -o-linear-gradient(left,#66C8F0,#029BEE); /* Opera 11.1 - 12*/
+    background: -moz-linear-gradient(left,#66C8F0,#029BEE); /* Firefox 3.6 - 15*/
+    background: linear-gradient(left,#66C8F0,#029BEE); /* 标准的语法 */
+    color: #fff;
+        }
+
+        .layui-layer-extend-title a {
+                float: right;
+                display: block;
+                padding: 0;
+                margin: 0;
+                padding-right: 1.5rem;
+                text-decoration: none;
+                color:#fff;
+            }

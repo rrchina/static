@@ -1,0 +1,36 @@
+﻿	/*学院简介*/
+	.sw_main{width:7.02rem;overflow:hidden;margin:0 auto;margin-top:0.3rem;margin-bottom:1.2rem;}
+	.sw_xyjj,.sw_xyfg,.sw_xbsz,.sw_xyxw,.sw_tzgg,.sw_lqcx{width:100%;overflow:hidden;}
+	.sw_xyjj>p{width:100%; line-height:28px; margin-bottom:28px; overflow:hidden;font-size:0.2rem;color:#666;}
+	.sw_xyjj>p>img{max-width:100%;height:auto;display:block;}
+	.sw_xyjj>h3{width:100%;font-size:0.3rem;color:#C7111A;text-align:center;font-weight:normal;}
+	.sw_xyjj>h4{width:4rem;height:0.26rem;font-size:0.2rem;color:#999;margin:0.1rem auto;font-weight:normal;}
+	.sw_xyjj>h4>span{float:left;}
+	.sw_xyjj>h4>em{float:right;font-style:normal;}
+	/*校园风光*/
+	.sw_xyfg>a{width:3.46rem;height:2.4rem;display:block;overflow:hidden;float:left;margin:0 0 0.1rem 0.1rem;}
+	.sw_xyfg>a:nth-child(odd),.sw_xbsz>a:nth-child(odd){margin-left:0;}
+	/*系部设置*/
+	.sw_xbsz>a{width:3.46rem;height:2.83rem;display:block;border-radius:0 0 0.08rem 0.08rem;box-shadow:0 0.03rem 0.03rem #E4E3EF;margin:0 0 0.15rem 0.1rem;float:left;}
+	.sw_xbsz>a>dd{width:3.46rem;height:2.4rem;overflow:hidden;}
+	.sw_xbsz>a>p{width:3.46rem;height:0.43rem;line-height:0.43rem;text-align:center;font-size:0.26rem;color:#C7111A;}
+	/*系部新闻*/
+	.sw_xyxw>a{width:100%;height:1.6rem;display:block;overflow:hidden;margin-bottom:0.15rem;}
+	.sw_xyxw>a>dd{width:2.2rem;height:1.6rem;float:left;margin-right:0.22rem;}
+	.sw_xyxw>a>h3{width:4.6rem;height:0.3rem;line-height:0.3rem;font-size:0.26rem;float:left;color:#000;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+	.sw_xyxw>a>p{width:4.6rem;height:0.92rem;font-size:0.22rem;float:left;color:#666;overflow:hidden;margin-top:0.05rem;}
+	.sw_xyxw>a>em{font-style:normal;font-size:0.26rem;float:right;color:#666;margin-right:0.2rem;}
+	/*通知公告*/
+	.sw_tzgg>a{width:100%;height:1.1rem;display:block;overflow:hidden;margin-bottom:0.2rem;}
+	.sw_tzgg>a>span{width:0.8rem;height:0.46rem;display:block;background:#C7111A;line-height:0.46rem;text-align:center;font-size:0.26rem;color:#fff;float:left;margin-bottom:0.05rem;}
+	.sw_tzgg>a>h3{width:6.1rem;height:0.46rem;line-height:0.46rem;font-size:0.26rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;float:left;margin-left:0.1rem;color:#000;}
+	.sw_tzgg>a>p{width:100%;height:0.64rem;overflow:hidden;font-size:0.22rem;color:#666;}
+	/*录取查询*/
+	.sw_lqcx>h3{width:100%;overflow:hidden;font-size:0.28rem;color:#C7111A;text-align:center;}
+	.sw_lqcx>label{width:4.1rem;height:0.46rem;line-height:0.46rem;margin:0.25rem auto;display:block;font-size:0.26rem;color:#222;}
+	.sw_lqcx>label>input{width:2.48rem;height:0.42rem;border:0.02rem solid #ADADAD;border-radius:0.05rem;display:block;line-height:0.42rem;float:right;margin-top:0.01rem;font-size:0.26rem;text-indent:0.5em;}
+	.sw_lqcx>span{font-size:0.2rem;color:#da2a1f;text-align:center;display:block;}
+	#sw_btn{width:1.56rem;height:0.59rem;background:#C7111A;color:#fff;line-height:0.59rem;text-align:center;display:block;border-radius:0.05rem;margin:0.4rem auto;border:none;outline:none;font-size:0.3rem;}
+	.sw_lqcx>p{width:5.4rem;overflow:hidden;margin:0 auto;text-indent:2em;font-size:0.2rem;color:#da2a1f;margin-top:0.15rem;}
+	.sw_lqcx>h4{font-size:0.28rem;color:#C7111A;text-align:center;margin:0.7rem auto;}
+	.sw_lqcx>a{width:0.9rem;font-size:0.22rem;display:block;color:#222;border-bottom:0.02rem solid #C7111A;margin:0 auto;}

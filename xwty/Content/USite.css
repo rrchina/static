@@ -1,0 +1,9 @@
+﻿body{margin:0;padding:0;background:#fff}
+.outer{background-color:#fff;padding-bottom:60px;}
+@media (max-width:600px){
+    .outer{width:100%;}
+}
+@media (min-width:600px){
+    .outer{width:600px;margin:auto;}
+}
+#totop{display:block;position:fixed;z-index:5;bottom:65px;left:6px;width:35px;height:35px;background-color:rgba(0,0,0,0.3);background-image:url(/images/totop.png);background-position:center;background-size:30px;background-repeat:no-repeat;display:none}
