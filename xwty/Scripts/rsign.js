@@ -93,7 +93,7 @@
                     e = e.originalEvent.changedTouches[e.originalEvent.changedTouches.length - 1];
                 }
                 rctx.beginPath();
-                var roffsetX = rcanvas.offsetLeft, roffsetY = rcanvas.offsetTop;
+                var roffsetX = $this.offset().left, roffsetY = $this.offset().top;
                 rstartX = e.pageX - roffsetX;
                 rstartY = e.pageY - roffsetY;
                 mousedown = true;
@@ -111,7 +111,7 @@
                     if (e.originalEvent && e.originalEvent.changedTouches) {
                         e = e.originalEvent.changedTouches[e.originalEvent.changedTouches.length - 1];
                     }
-                    var roffsetX = rcanvas.offsetLeft, roffsetY = rcanvas.offsetTop;
+                    var roffsetX = $this.offset().left, roffsetY = $this.offset().top;
                     var x = e.pageX - roffsetX,
                         y = e.pageY - roffsetY;
                     rctx.moveTo(rstartX, rstartY);
